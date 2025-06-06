@@ -1,0 +1,83 @@
+header {
+  background: linear-gradient(to right, #3498db, #e74c3c);
+  padding: 20px;
+  font-family: 'fantasy';
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+main {
+padding: 50px;
+margin: 20px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+background-color: #f2f2f2;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+div {
+padding: 20px;
+background-color: #ff6f69;
+color: white;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+transition: background-color 0.3s ease;
+}
+
+div:hover {
+background-color: #ff4c4c;
+}   
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #e74c3c, #3498db);
+  background-attachment: fixed;
+  color: white;
+  }
+  
+  h1 {
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+
+  h5 {
+    text-align: center;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #image-result,
+  #audio-result {
+    margin-top: 20px;
+  }
+  
+  #image-result img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #audio-result audio {
+    width: 100%;
+  }
+  
